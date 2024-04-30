@@ -1,0 +1,23 @@
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+.black{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    padding: 30px;
+    margin: 30px;
+}
+.black p{
+    color: white;
+}
+.white{
+    width: 400px;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin: 30px; 
+    border: 1px solid hwb(0 42% 58%); 
+}
