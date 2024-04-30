@@ -21,3 +21,9 @@
     margin: 30px; 
     border: 1px solid hwb(0 42% 58%); 
 }
+@media screen and (max-width:1024px){
+    .container{
+        flex-direction: column; /* direção dos conteudos do display */
+    }
+    
+}
