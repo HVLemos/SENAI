@@ -9,7 +9,7 @@
     background-color: black;
     padding: 30px;
     margin: 30px;
-    display: block;
+    display: flex;
     border-radius: 10px;
 }
 .black p{
