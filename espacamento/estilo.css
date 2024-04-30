@@ -10,6 +10,7 @@
     padding: 30px;
     margin: 30px;
     display: block;
+    border-radius: 10px;
 }
 .black p{
     color: white;
@@ -22,6 +23,7 @@
     margin: 30px; 
     border: 1px solid hwb(0 42% 58%); 
     display: block;
+    border-radius: 10px;
 }
 @media screen and (max-width:1024px){
     .container{
