@@ -9,6 +9,7 @@
     background-color: black;
     padding: 30px;
     margin: 30px;
+    display: block;
 }
 .black p{
     color: white;
@@ -20,6 +21,7 @@
     padding: 30px;
     margin: 30px; 
     border: 1px solid hwb(0 42% 58%); 
+    display: block;
 }
 @media screen and (max-width:1024px){
     .container{
