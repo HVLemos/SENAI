@@ -5,11 +5,10 @@
 }
 .black{
     max-width: 400px;
-    height: 400px;
+    height:400px;
     background-color: black;
     padding: 30px;
     margin: 30px;
-    display: block;
     font-size: 25px;
     border-radius: 10px;;
 }
@@ -17,18 +16,21 @@
     color: white;
 }
 .white{
-    width: 100%;
+    max-width: 400px;
     height: 400px;
     color: rgb(0, 0, 0);
     padding: 30px;
     margin: 30px; 
-    border: 1px solid hwb(0 42% 58%); 
-    display: block;
+    border: 1px  black;
     font-size: 25px;
+    border-radius: 10px;
 }
 @media screen and (max-width:1024px){
     .container{
         flex-direction: column; /* direção dos conteudos do display */
+    }
+    .black, .white{
+        max-width: 100%;
     }
     
 }
